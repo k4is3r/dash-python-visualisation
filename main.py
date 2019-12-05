@@ -35,7 +35,10 @@ app.layout = html.Div([
 	], style={'width':'55%','float':'right','display':'inline-block'}),
 	html.Div([
 	     html.H2('price graph'),
-	     dcc.Grap
+	     dcc.Graph(id='product-trend-graph'),
+	     html.P('')
+	], style={'width':'100%', 'display':'inline-block'})
+])
 
 
 
