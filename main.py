@@ -16,19 +16,26 @@ product_df = dbm.read()
 #Creating the main layout
 app.layout = html.Div([
 	html.Div([
-		html.H1('Price Optimization Dashboard'),
-		html.H2('Choose a product name'),
-		dcc.Dropdown(
-			id ='product-dropdown',
-			options = dict_products,
-			multi = True,
-			value = ["Ben & Jerry's Wake and No Bake Cookie Dough Core IceCream","Brewdog Punk IPA"]
+	    html.H1('Price Optimization Dashboard'),
+	    html.H2('Choose a product name'),
+	    dcc.Dropdown(
+		id ='product-dropdown',
+		options = dict_products,
+		multi = True,
+		value = ["Ben & Jerry's Wake and No Bake Cookie Dough Core IceCream","Brewdog Punk IPA"]
 		),
-		dcc.Graph(
-			id = 'product-like-bar'
-		)
+	    dcc.Graph(
+		id = 'product-like-bar'
+	    )
 	], style={'width':'40%', 'display':'inline-block'}},
-	html.Di
+	html.Div([
+	    html.H2('All product ingo'),
+	    html.Table(id='my-table'),
+	    html.P(''),
+	], style={'width':'55%','float':'right','display':'inline-block'}),
+	html.Div([
+	     html.H2('price graph'),
+	     dcc.Grap
 
 
 
