@@ -27,7 +27,7 @@ app.layout = html.Div([
 	    dcc.Graph(
 		id = 'product-like-bar'
 	    )
-	], style={'width':'40%', 'display':'inline-block'}},
+	], style={'width':'40%', 'display':'inline-block'}),
 	html.Div([
 	    html.H2('All product ingo'),
 	    html.Table(id='my-table'),
