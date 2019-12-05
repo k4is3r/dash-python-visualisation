@@ -2,7 +2,7 @@
 #04-12-2019
 #importing libraries for dash
 import dash
-from dash.dependenies import Input, Output
+from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 #some controller
