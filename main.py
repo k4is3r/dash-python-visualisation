@@ -8,6 +8,12 @@ import dash_html_components as html
 #some controller
 import managerdb.py
 
+
+global product_df
+
+product_df = dbm.read()
+
+
 #activating the dash server
 app = dash.Dash(__name__)
 server = app.server
