@@ -1,1 +1,6 @@
 .venv/
+.main.py.swp
+Web-Scraping/
+managerdb.py
+dataset_db.db
+
