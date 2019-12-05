@@ -20,6 +20,15 @@ app.layout = html.Div([
 		html.H2('Choose a product name'),
 		dcc.Dropdown(
 			id ='product-dropdown',
+			options = dict_products,
+			multi = True,
+			value = ["Ben & Jerry's Wake and No Bake Cookie Dough Core IceCream","Brewdog Punk IPA"]
+		),
+		dcc.Graph(
+			id = 'product-like-bar'
+		)
+	], style={'width':'40%', 'display':'inline-block'}},
+	html.Di
 
 
 
