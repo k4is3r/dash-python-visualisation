@@ -3,4 +3,4 @@
 Web-Scraping/
 managerdb.py
 dataset_db.db
-
+__pycache__/
