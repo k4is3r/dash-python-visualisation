@@ -13,6 +13,16 @@ global product_df
 
 product_df = dbm.read()
 
+#Creating the main layout
+app.layout = html.Div([
+	html.Div([
+		html.H1('Price Optimization Dashboard'),
+		html.H2('Choose a product name'),
+		dcc.Dropdown(
+			id ='product-dropdown',
+
+
+
 
 #activating the dash server
 app = dash.Dash(__name__)
