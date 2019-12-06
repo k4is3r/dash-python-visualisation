@@ -46,8 +46,7 @@ app.layout = html.Div([
 		id ='product-dropdown',
 		options = dict_products,
 		multi = True,
-		value = ["Ben & Jerry's Wake and No Bake Cookie Dough Core IceCream","Brewdog Punk IPA"]
-		),
+		value = ["Ben & Jerry's Wake and No Bake Cookie Dough Core IceCream","Brewdog Punk IPA"]),
 	    dcc.Graph(
 		id = 'product-like-bar'
 	    )
